@@ -1,4 +1,7 @@
-***Steps***
+Presentation
+https://docs.google.com/presentation/d/1SUq8zVAMNEeGbWLLztEPLZM8LzYnwBMW42jpQHuNAqE/edit?usp=sharing
+
+***Some Setup Steps***
 
 1. `poetry new --name agify --src python-tutorial`
 
@@ -8,16 +11,11 @@
 
 4. `poetry install`
 
-5. `touch src/agify/agify.py`
-
 6. add function to agify.py
 
 7. add
-
-
-```ini
-[tool.poetry.scripts]
-agify = "agify.agify:run"
+```
+[tool.poetry.scripts] agify = "agify.agify:run"
 ```
 to pyproject.toml
 
