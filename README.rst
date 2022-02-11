@@ -3,20 +3,8 @@ https://docs.google.com/presentation/d/1SUq8zVAMNEeGbWLLztEPLZM8LzYnwBMW42jpQHuN
 
 ***Some Setup Steps***
 
-1. `poetry new --name agify --src python-tutorial`
+1. `poetry install`
 
-2. `poetry add requests click`
+2. `poetry run agify`
 
-3. `poetry add --dev pytest ipdb ipython`
-
-4. `poetry install`
-
-6. add function to agify.py
-
-7. add
-```
-[tool.poetry.scripts] agify = "agify.agify:run"
-```
-to pyproject.toml
-
-8. `poetry run agify`
+2a. optionally: `poetry build` to install globally
